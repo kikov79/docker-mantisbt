@@ -2,7 +2,7 @@ FROM php:5.6-apache
 
 MAINTAINER KikoV <kikov79@gmail.com>
 
-ENV MANTISBT_VERSION 1.2.19
+ENV MANTISBT_VERSION 1.3.4
 
 # Fix sh
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
